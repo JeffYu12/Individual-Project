@@ -14,7 +14,7 @@ The dataset used for this analysis was sourced from Statista and covers mobile a
 
 Before analysis, the data underwent preprocessing, which included:
 - **Merging** the datasets based on the year.
-- **Handling Missing Data**: Missing values were removed to ensure the integrity of the analysis.
+- **Add Addition Columns**: Some data sets didn't have total.
 - **Calculating Growth**: Year-over-year growth rates for downloads, consumer spending, and advertising spending were calculated using percentage change.
 
 ## Methods
@@ -22,7 +22,6 @@ To answer the research questions, Python was used with the following tools:
 
 - **Pandas**: For data manipulation, merging, and calculation of growth percentages.
 - **Matplotlib**: For data visualization and plotting.
-- **Numpy**: For performing numerical operations.
 
 The Python code first merged the datasets and then calculated the year-over-year growth percentages for downloads, revenue, and ad spending. The correlation coefficients between these growth variables were calculated using Pearson correlation.
 
@@ -50,7 +49,7 @@ Future research could further explore the impact of specific app categories, reg
 ## Coding and Data Files
 The analysis is implemented in a Jupyter Notebook. The main Python code and datasets used for the analysis are available at the following link:
 
-- [Main Analysis Notebook](./main_analysis.ipynb)
+- [Main Analysis Notebook](./codes/main.ipynb)
 
 Data files used in the analysis can be found in the `data/` folder.
 
